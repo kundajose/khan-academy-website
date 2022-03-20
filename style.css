@@ -1,0 +1,826 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  border: 2px;
+  height: 50px;
+  padding: 0px 100px 0 100px;
+  color: blue;
+}
+.logo {
+  height: 45px;
+  float: left;
+  border: 1px;
+  width: 20%;
+  height: 45px;
+}
+.course {
+  float: left;
+  border: 1px;
+  width: 15%;
+  height: 45px;
+  padding-top: 10px;
+}
+form {
+  float: left;
+  border: 1px;
+  width: 20%;
+  height: 45px;
+}
+.data {
+  height: 30px;
+  width: 30px;
+}
+.before {
+  float: right;
+  border: 1px;
+  width: 35%;
+  height: 45px;
+  margin-top: -10px;
+}
+.donate {
+  float: left;
+  border: 1px;
+  width: 33.33%;
+  height: 28px;
+  font-size: 20px;
+}
+.mission {
+  border: 2px;
+  height: 510px;
+  padding: 60px 120px 0 120px;
+}
+input {
+  padding: 10px;
+  background-color: rgb(240, 236, 236);
+  border: none;
+  margin-top: 5px;
+  margin-left: -100px;
+}
+.photo {
+  width: 45%;
+  height: 450px;
+  border: 1px;
+  float: left;
+  padding-left: 80px;
+}
+.classroom {
+  width: 55%;
+  height: 400px;
+  float: right;
+}
+.student {
+  height: 260px;
+  border: 2px;
+}
+h1 {
+  font-size: 45px;
+}
+button {
+  border: 1px;
+  background-color: rgb(11, 11, 189);
+  padding: 5px;
+  width: 90px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.btn:hover {
+  border-radius: 15px;
+  padding: 5px;
+}
+.work {
+  border: 2px;
+  height: 160px;
+}
+.pace {
+  border: 2px;
+  height: 600px;
+  padding: 100px 120px 0 120px;
+  background-color: rgb(241, 240, 240);
+}
+.images {
+  padding-left: 100px;
+}
+.learning {
+  border: 1px;
+  width: 33.33%;
+  height: 290px;
+  float: left;
+}
+.paragraphe {
+  text-align: center;
+  width: 350px;
+  height: 50px;
+  margin-left: 20px;
+}
+.picture1 {
+  width: 100%;
+  height: 450px;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+.khan {
+  text-align: center;
+}
+.photo1 {
+  width: 400px;
+  height: 400px;
+}
+.engage {
+  border: 2px;
+  height: 500px;
+  margin: 40px 40px;
+}
+.photo2 {
+  width: 650px;
+  height: 450px;
+}
+.picture {
+  height: 500px;
+  width: 60%;
+  border: 1px;
+  float: left;
+}
+
+.teacher {
+  height: 500px;
+  border: 2px;
+  float: right;
+  width: 40%;
+}
+.btn {
+  width: 200px;
+  height: 60px;
+}
+.builed {
+  border: 2px;
+  height: 480px;
+  padding-left: 80px;
+}
+.learner {
+  height: 480px;
+  border: 2px;
+  width: 40%;
+  float: left;
+}
+.zero {
+  width: 60%;
+  height: 480px;
+  float: right;
+  border: 2px;
+}
+.key {
+  border: 2px;
+  height: 80px;
+  float: left;
+  width: 100%;
+}
+.support {
+  border: 2px;
+  height: 170px;
+  margin: 0 120px 0 120px;
+}
+.BNK {
+  float: left;
+  width: 25%;
+  height: 70px;
+  border: 1px;
+}
+.GATES {
+  padding-left: 30px;
+}
+.Carlos {
+  border: 2px;
+  height: 80px;
+  margin: 0 120px 0 120px;
+}
+.fund {
+  float: left;
+  width: 25%;
+  height: 70px;
+  border: 1px;
+}
+.Charitable {
+  font-size: 10px;
+}
+.Bank {
+  border: 2px;
+  height: 80px;
+  margin: 0 120px 0 120px;
+  padding-top: 60px;
+}
+.America {
+  float: left;
+  width: 20%;
+  height: 50px;
+  border: 1px;
+}
+.general {
+  border: 2px;
+  height: 80px;
+  margin: 0 450px 0 450px;
+}
+.Motors {
+  float: left;
+  width: 50%;
+  height: 50px;
+  border: 1px;
+}
+.color2 {
+  background-color: lightgray;
+  font-size: 20px;
+  height: 600px;
+}
+footer {
+  border: 2px;
+  height: 500px;
+  background-color: rgb(55, 55, 202);
+}
+.details {
+  border: 2px;
+  height: 300px;
+}
+.provide {
+  float: left;
+  width: 30%;
+  height: 280px;
+  border: 1px;
+  padding-left: 80px;
+}
+.leadership {
+  float: left;
+  width: 20%;
+  height: 280px;
+  border: 1px;
+}
+.english {
+  border: 2px;
+  height: 120px;
+}
+.mixed {
+  border: 2px;
+  height: 50px;
+  width: 500px;
+  padding-left: 35px;
+}
+.Country {
+  float: left;
+  width: 20%;
+  height: 30px;
+  border: 1px;
+}
+.language {
+  padding-left: 80px;
+}
+.chart {
+  border: 2px;
+  height: 40px;
+  padding-left: 35px;
+}
+.Terms {
+  float: left;
+  width: 50%;
+  height: 30px;
+  border: 1px;
+}
+.channel {
+  float: right;
+  width: 20%;
+  height: 30px;
+  border: 1px;
+}
+.Academy {
+  float: left;
+  width: 32%;
+  border: 1px;
+  height: 20px;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.icon {
+  border: 1px solid;
+  background-color: white;
+}
+.facebook:hover {
+  border: 2px solid white;
+}
+.twitter:hover {
+  border: 2px solid white;
+}
+.instragram:hover {
+  border: 2px solid white;
+}
+ul li {
+  line-height: 1.5;
+}
+
+@media all and (max-width: 375px) {
+  body {
+    padding: none;
+  }
+  .mission,
+  .pace,
+  .engage,
+  .builed,
+  .color2,
+  .footer {
+    width: 100%;
+  }
+  header {
+    height: 200px;
+    padding: 0%;
+  }
+  .photo {
+    width: 100%;
+    height: 350px;
+    float: none;
+    padding-left: none;
+    padding-left: 0px;
+  }
+  .mission {
+    width: 90%;
+    height: 910px;
+    padding: 0%;
+  }
+  .classroom {
+    width: 100%;
+    float: none;
+    height: 500px;
+  }
+  .logo {
+    float: none;
+    width: 100%;
+  }
+  .course {
+    float: none;
+    width: 100%;
+  }
+  form {
+    float: none;
+    width: 100%;
+  }
+  .before {
+    display: none;
+  }
+  .photo1 {
+    width: 100%;
+  }
+  .logo {
+    height: 25px;
+    width: 70%;
+  }
+  input {
+    margin-left: 0px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .click {
+    padding-top: 140px;
+  }
+  .pace {
+    height: 1250px;
+    padding: 0%;
+    width: 85%;
+    background-color: rgb(241, 240, 240);
+  }
+  .images {
+    padding-left: 30px;
+  }
+  .learning {
+    width: 100%;
+    height: 320px;
+    float: none;
+  }
+  .paragraphe {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .engage {
+    height: 1000px;
+    margin: 0px;
+    width: 90%;
+  }
+  .photo2 {
+    width: 100%;
+    height: 250px;
+  }
+  .picture,
+  .teacher {
+    height: 300px;
+    width: 100%;
+    float: none;
+    margin: 0%;
+  }
+  .btn {
+    width: 150px;
+  }
+  .builed {
+    height: 800px;
+    width: 100%;
+  }
+  .learner {
+    height: 480px;
+    width: 100%;
+    float: none;
+    margin-left: -20%;
+  }
+  .zero {
+    width: 100%;
+    margin-left: -20%;
+    float: none;
+  }
+  .picture1 {
+    height: 300px;
+  }
+  .color2 {
+    background-color: lightgray;
+    font-size: 10px;
+    height: 1150px;
+  }
+  .support {
+    height: 370px;
+    margin: 0px;
+  }
+  .BNK {
+    float: none;
+    width: 100%;
+    height: 100px;
+  }
+  .Carlos {
+    height: 280px;
+    margin: 0px;
+  }
+  .fund {
+    float: none;
+    width: 100%;
+    height: 70px;
+  }
+  .Bank {
+    height: 280px;
+    margin: 0px;
+    padding-top: 0px;
+  }
+  .America {
+    float: none;
+    width: 100%;
+  }
+  .general {
+    margin: 0px;
+  }
+  .Motors {
+    float: none;
+    width: 100%;
+  }
+
+  .details {
+    width: 90%;
+    height: 1250px;
+  }
+  footer {
+    height: 1800px;
+    background-color: rgb(55, 55, 202);
+  }
+  .provide {
+    float: none;
+    width: 100%;
+    height: 240px;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .leadership {
+    float: none;
+    width: 100%;
+    height: 280px;
+  }
+  .Terms {
+    float: none;
+    width: 100%;
+  }
+  .Academy {
+    float: none;
+    width: 100%;
+  }
+  .chart {
+    width: 90%;
+    padding-left: -0px;
+  }
+  .english {
+    border: 2px;
+    height: 200px;
+  }
+  .mixed {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .Country {
+    float: left;
+    width: 100%;
+  }
+  .language {
+    padding-left: 20px;
+  }
+  hr {
+    width: 80%;
+    margin-left: -20px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  body {
+    padding: none;
+  }
+  .mission,
+  .pace,
+  .engage,
+  .builed,
+  .color2,
+  .footer {
+    width: 100%;
+  }
+  header {
+    height: 200px;
+    padding: 0%;
+  }
+  .photo {
+    width: 100%;
+    height: 350px;
+    float: none;
+    padding-left: none;
+    padding-left: 0px;
+  }
+  .mission {
+    width: 100%;
+    height: 750px;
+    padding: 0%;
+  }
+  .classroom {
+    width: 100%;
+    float: none;
+    text-align: center;
+    height: 100px;
+  }
+  .logo {
+    float: none;
+    width: 100%;
+  }
+  .course {
+    float: none;
+    width: 100%;
+  }
+  form {
+    float: none;
+    width: 100%;
+  }
+  .before {
+    width: 100%;
+  }
+  .donate {
+    float: left;
+    margin-left: -30px;
+    width: 30%;
+    font-size: none;
+  }
+  .photo1 {
+    width: 100%;
+  }
+  .logo {
+    height: 45px;
+    width: 70%;
+    font-size: 15px;
+  }
+  input {
+    margin-left: 0px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .click {
+    padding-top: 0px;
+  }
+  .pace {
+    height: 1100px;
+    padding: 0%;
+    width: 100%;
+    background-color: rgb(241, 240, 240);
+    text-align: center;
+  }
+  .images {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .learning {
+    width: 100%;
+    height: 320px;
+    float: none;
+  }
+  .paragraphe {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .engage {
+    height: 800px;
+    margin: 0px;
+    width: 90%;
+  }
+  .photo2 {
+    width: 100%;
+    height: 250px;
+  }
+  .picture,
+  .teacher {
+    height: 300px;
+    width: 100%;
+    float: none;
+    margin: 0%;
+    text-align: center;
+  }
+  .btn {
+    width: 250px;
+  }
+  .builed {
+    height: 700px;
+    width: 100%;
+    text-align: center;
+  }
+  .learner {
+    height: 350px;
+    width: 100%;
+    float: none;
+    margin-left: -20%;
+  }
+  .zero {
+    width: 100%;
+    margin-left: -20%;
+    float: none;
+  }
+  .picture1 {
+    height: 300px;
+  }
+  .color2 {
+    background-color: lightgray;
+    font-size: 10px;
+    height: 500px;
+  }
+  .support {
+    height: 160px;
+    margin: 0px;
+  }
+  .BNK {
+    float: left;
+    width: 25%;
+    height: 50px;
+  }
+  .Carlos {
+    height: 100px;
+    margin: 0px;
+  }
+  .fund {
+    float: left;
+    width: 25%;
+    height: 70px;
+  }
+  .Bank {
+    height: 100px;
+    margin: 0px;
+    padding-top: 0px;
+  }
+  .America {
+    float: left;
+    width: 20%;
+  }
+  .general {
+    margin: 0px;
+  }
+  .Motors {
+    float: left;
+    width: 50%;
+  }
+
+  .details {
+    width: 90%;
+    height: 1050px;
+  }
+  footer {
+    height: 1350px;
+    background-color: rgb(55, 55, 202);
+  }
+  .provide {
+    float: none;
+    width: 100%;
+    height: 140px;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .leadership {
+    float: none;
+    width: 100%;
+    height: 280px;
+  }
+  .Terms {
+    float: none;
+    width: 100%;
+  }
+  .Academy {
+    float: none;
+    width: 100%;
+  }
+  .chart {
+    width: 90%;
+    padding-left: -0px;
+  }
+  .english {
+    border: 2px;
+    height: 100px;
+  }
+  .mixed {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .Country {
+    float: left;
+    width: 20%;
+  }
+  .language {
+    padding-left: 20px;
+  }
+  hr {
+    width: 80%;
+    margin-left: -20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  header {
+    padding: 0px;
+  }
+  .donate {
+    font-size: 15px;
+  }
+  input {
+    width: 180px;
+    margin-left: -40px;
+  }
+  .mission {
+    padding: 0px;
+  }
+  .photo {
+    width: 45%;
+    padding-left: 10px;
+  }
+  .classroom {
+    width: 50%;
+  }
+  .click {
+    padding-top: 10px;
+  }
+  .pace {
+    height: 600px;
+    padding: 0px;
+    background-color: rgb(241, 240, 240);
+  }
+  .images {
+    padding-left: 100px;
+  }
+  .learning {
+    width: 30%;
+    margin: 5px;
+  }
+  .paragraphe {
+    width: 250px;
+    margin-left: 0px;
+  }
+  .engage {
+    height: 650px;
+    margin: 0px;
+  }
+  .photo2 {
+    width: 450px;
+    height: 500px;
+  }
+  .support {
+    margin: 0px;
+  }
+  .BNK {
+    height: 100px;
+  }
+  .Carlos {
+    margin: 0px;
+  }
+  .Bank {
+    border: 2px;
+    height: 80px;
+    margin: 0px;
+    padding-top: 20px;
+  }
+  .general {
+    margin: 0px;
+  }
+}

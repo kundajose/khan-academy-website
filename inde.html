@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khan Academy1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <article class="course">
+            <span>Courses</span>
+        </article>
+        <form action="Search">
+            <input type="text" name="Search" id="search" placeholder="Search">
+        </form>
+        <img class="logo"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAi4AAABaCAMAAACouC0TAAAAwFBMVEX///8KKmYUv5YAJmQAJGMAvJEAAFgADVsAH2EAGl8AHGAAJ2QAEFw4T37GzNkAE1xcz7IAF160u8vf5OyXoLaOmrPt7vH19/m8w9IzSHkAB1nU2eMRLWgiP3VvephFWoalrMAbOnOb4M3k5+3F7eLu+vd/i6cACFp21bt11bvZ8+xTY4oAAFV3hKKpscRkcpVi0LMpxJ+z59lDyKbm+PPG7OKl49KG2sNaapDP094fPXQ/Un5KXIUvQnNVZ46Ik62Uw/MTAAAU6klEQVR4nO2diXeaTBDAVRARUEJQ0WiihiamiUeuNlqT5v//rz6OndmD5bDmqyZlXt
+                /rCy7s9WN3dmZ2qVSKyOPJw8PNbaGkpfzr8u2pXqvV6vWTEphS8uT2JISlFgHzcnXo0pRy1HL1UgdaQmBqPw9doFKOWC5rDCwRMA/fDl2mUo5UHh8EWCJgnkoVppSk3D5JYIlUmPtShSmFl+fvclhiYC4PXbxSjkmuEkqLqMI8HrqIpRyNSJUWUYX5cehSlnIU8iNFaUmoMM+HLmkpB5fn+yKwxMC8HLqwpRxWeLNcLjCl2e6flp/ZGq4EmKfSbPevyrdCSosIzH1ptvsXhfoSd+Sl9Dz+e3J1s4vSIgBTK812/5bkmOVygSnNdv+QfMux4YYDTz179PnKnkev+z48dBmOR9J8iQBC7ebH89XV7eNJDjDf0812k0EsY0mzD8fkx1abv3D9P9V3Z7nW7MGBst68trbbbavVOVD+Cbn6nkMBVWRzlOF0FaanqbEY28Rv7kiHH0mf3DWjP5V5+/+o7+7iWdVqo3+YvLdxW6jzIxnernLcQ3VOKXnJSfxdnklPq8ai/Er89KaS36oWGU5aSvy3ffrx1f0T6TrVqnp3kKy9AWmLxpG8OnkACCrsTU5yudGO4nIu/OJtdaDFgB45Mly8kRkUZrY5SN7HhstDdvcnvEK7po8kHZe7JtCio3pwZLhM7Kh4q0PkfXS4ZPZ+rZYwwH3LVl9OpJmk4rKykZZzDy4eGS7ncXE09wB5fy5cZIPF0wfi8t4AWtSpj1ePC5dTi/B8cYDMPxkukhCoTGVnN1wmFtCiKIzmf1y4bEEV13p/P/NPhovEkvLzw3A5dUxy2WyyrXFUuPQRaeP97+f+uXCpSXDJVF52waVtKNATsyWb+qhwucOVm2l6+ck/WD4/Lo8fhIurIi0ab7M8JlyGsyqK8/dNq58Ll7rED3T5Mbj0RgnzHMgx4bLSKS7K9K8PL58MF0lsZWYob2FcvHOkxRYtGkeEi6tVGbGX+Xd8rHwuXGrJ3n/O5qsoLmMD+qCZMK8fES4XOouL2vrb+X8yXJJG/WynQVFcVg50gb5NjPDHg0uPG1yCafNvOxo/GS61ByH5bY7PqBgu12jMVadJa8bx4HJt8Lj8dUfj8eJSl8Y/1Z+41NKpiLmxGC4dap7TJaZ1EZee6/rJVKx4fpAkXw/1CqVi0htoGCL/N/LiCIKSZGfhBbVx8wx+PiTJwSXMLedR3ONYyW9VmWBH31y+3D8kY+bqT4zb6IcIVJj86f7lEjwDhXBZ4hBv2rLmZ3HxOy1N0+baXF2dSrrBa08uBvo8SBEkscYdoQHak8kE5o/TtR2k0bSzVrdo7EgHp8wp4SXT0TjsbK0wi7m+XkqAcE/fx6OwBME/bbpImde804tRVM65/trZZODidsYkt2TLhPUmHnS/O4hynL0yenpvstXiPLh7hxMiwjvsL8n1HsUlXjPfPt7XeGLq9UsCzK1wKEO9/nDzLbbMgEZTBJc+OoqqM2mbIS59f6U1yQrK1K2mYPfovY8bDUdX4NWvqo62YoHpzx3HOQvbzesYFmitSlOTBfUlJY5cCKTZQXDO0hyN3nLAlNW2LnhylytTsw0Vi6oYZ1NJ5f1rx9JJIlNtzpQRDGsCLu1XzaEt41xzeIb1tq2wpGEDktZULYVk2Fs0bKZVuwBMb247kTTOOf56Iyu+br2JuARyJUZZ1usnL5cvN0/C1dp36lG6LI7LsEmNuRNpasBFXSvcwsS0BlxnvTbUqiiGyrRr1MnhgDAcWCabSm10pTnzMgFGnF4POtpYyNP23xoKXxCb9Rn05zpXgKgt5olnTZpNPhn+xePi32lc1U1HYdf43TAqxAmqeGqwypd5Fhm4Ts0md6/9Rlq1h9f5QX8JuoMpw6USjSPiQCJeqL2wFt/CuLz5ClY0rc8Al6oqNrE+YuvxmqQluEenSTph/U3V66uJlKJpUCI4EYS+6AW0+0yqdywEWKI2H9MB5tRO/JwshLe2EkxhW7G49PnXKBSlwTjMI1zUQaUjl
+                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
+                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"
+            alt="Log">
+        <nav class="before">
+            <ul class="donate">
+                <li>
+                    Donate
+                </li>
+            </ul>
+            <ul class="donate">
+                <li>
+                    Log in
+                </li>
+            </ul>
+            <ul class="donate">
+                <li>
+                    Sign up
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <hr>
+    <section class="mission">
+        <section class="photo">
+            <img class="photo1" src="/Screenshot from 2022-02-14 13.56.01.png" alt="photo1">
+        </section>
+        <section class="classroom">
+            <article class="student">
+                <h1>
+                    For every student,<br> every classroom. <br> Real results.
+                </h1>
+                <p>We’re a nonprofit with the mission to provide a free, world-class <br> education for anyone,
+                    anywhere.
+                </p>
+            </article>
+            <article class="click">
+                <button>
+                    Learners
+                </button>
+                <button>
+                    Teachers
+                </button>
+                <button>
+                    Parents
+                </button>
+            </article>
+        </section>
+    </section>
+    <section class="pace">
+        <article class="work">
+            <h1 class="khan">
+                Why Khan Academy works
+            </h1>
+        </article>
+        <section class="learning">
+            <img class="images" src="/Screenshot from 2022-02-14 14.27.37.png" alt="image1">
+            <h2>
+                Personalized learning
+            </h2>
+            <p class="paragraphe">
+                Students practice at their own pace, first filling in gaps in their understanding and then
+                accelerating their learning.
+            </p>
+        </section>
+        <section class="learning">
+            <img class="images" src="/Screenshot from 2022-02-14 14.27.59.png" alt="image2">
+            <h2>
+                Trusted content
+            </h2>
+            <p class="paragraphe">
+                Created by experts, Khan Academy’s library of trusted practice and lessons covers math, science, and
+                more. Always free for learners and teachers.
+            </p>
+        </section>
+        <section class="learning">
+            <img class="images" src="/Screenshot from 2022-02-14 14.28.13.png" alt="image3">
+            <h2>
+                Tools to empower teachers
+            </h2>
+            <p class="paragraphe">
+                With Khan Academy, teachers can identify gaps in their students’ understanding,
+                tailor instruction, and meet the needs of every student.
+            </p>
+        </section>
+    </section>
+    <section class="engage">
+        <article class="picture">
+            <img class="photo2" src="/Screenshot from 2022-02-14 14.29.19.png" alt="image4">
+        </article>
+        <article class="teacher">
+            <h3>
+                TEACHERS
+            </h3>
+            <h1>
+                Differentiate your <br> classroom and engage <br> every student.
+            </h1>
+            <p>
+                We empower teachers to support their entire classroom. <br>
+                90% of US teachers who have used KhanAcademy have <br>found us effective.
+            </p>
+            <h6>
+                SOURCE: 2018 ConStat U.S. Online Education Customer Survey
+            </h6>
+            <button class="btn">
+                Teachers,start here
+            </button>
+        </article>
+    </section>
+    <section class="builed">
+        <article class="learner">
+            <h3>
+                LEARNERS AND STUDENTS
+            </h3>
+            <h1>
+                You can learn <br> anything.
+            </h1>
+            <p>
+                Build a deep, solid understanding in math, science, and more.
+            </p>
+            <button class="btn">
+                Larners,start here
+            </button>
+        </article>
+        <article class="zero">
+            <img class="picture1" src="https://cdn.kastatic.org/images/lohp/donor-landing-hero@2x.png" alt="photo1">
+        </article>
+    </section>
+    <main class="color2">
+        <article class="key">
+            <h2>
+                Key supporters
+            </h2>
+        </article>
+        <nav>
+            <article class="support">
+                <ul class="BNK">
+                    <li>
+                        BNK OF AMERICA
+                    </li>
+                </ul>
+                <ul class="BNK">
+                    <li>
+                        College Board
+                    </li>
+                </ul>
+                <ul class="BNK">
+                    <li>
+                        Ann and John Doerr
+                    </li>
+                </ul>
+                <ul class="BNK">
+                    <li>
+                        BILL & MELINDA <br>
+                        <span class="GATES">GATES <i>Foundation</i> </span>
+                    </li>
+                </ul>
+            </article>
+            <ul class=" Carlos">
+                <ul class="fund">
+                    <li>
+                        FUNDACAO <br>
+                        <span>Lemann</span>
+                    </li>
+                </ul>
+                <ul class="fund">
+                    <li>
+                        Carlos Rodriguez-Pastor
+                    </li>
+                </ul>
+                <ul class="fund">
+                    <li>
+                        TATA TRUSTS
+                    </li>
+                </ul>
+                <ul class="fund">
+                    <li>VALHALLA <br>
+                        <span class="Charitable">Charitable Foundation</span>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+        <hr>
+        <h2>
+            Supporters of our COVID-19 response
+        </h2>
+        <article class="Bank ">
+            <ul class="America">
+                <li>
+                    Bank of America
+                </li>
+            </ul>
+            <ul class="America">
+                <li>
+                    AT&T
+                </li>
+            </ul>
+            <ul class="America">
+                <li>
+                    Google.org
+                </li>
+            </ul>
+            <ul class="America">
+                <li>
+                    Novartis
+                </li>
+            </ul>
+            <ul>
+                <li class="America">
+                    Fastly
+                </li>
+            </ul>
+        </article>
+        <article class="general">
+            <ul class="Motors">
+                <li>
+                    General Motors
+                </li>
+            </ul>
+            <ul class="Motors">
+                <li>
+                    Adobe
+                </li>
+            </ul>
+        </article>
+    </main>
+    <footer>
+        <div class="details">
+            <div class="provide">
+                <p>
+                    Our mission is to provide a free, world-class education to anyone, anywhere.
+                </p>
+                <p>
+                    Khan Academy is a 501(c)(3) nonprofit organization.<strong>Donate</strong> or
+                    <strong>volunteer</strong> today!
+                </p>
+            </div>
+            <div class="leadership">
+                <ul class="info">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Impact</a></li>
+                    <li><a href="#">Our interns</a></li>
+                    <li><a href="#">Our content specialists</a></li>
+                    <li><a href="#">Our leadership</a></li>
+                    <li><a href="#">Our supporters</a></li>
+                    <li><a href="#">Our contributors</a></li>
+                    <li><a href="#">Our finances</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Internships</a></li>
+                </ul>
+            </div>
+            <div class="leadership">
+                <div class="story">
+                    <ul>
+                        <li>Contact</li>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Support community</a></li>
+                        <li><a href="#">Share your story</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="downlod">
+                    <ul>
+                        <li>Download our apps</li>
+                        <li><a href="#">iOS app</a></li>
+                        <li><a href="#">Android app</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="leadership">
+                <ul>
+                    <li>Courses</li>
+                    <li><a href="#">Math: Pre-K - 8th grade</a></li>
+                    <li><a href="#">Math: Get ready courses</a></li>
+                    <li><a href="#">Math: high school & college</a></li>
+                    <li><a href="#">Test prep</a></li>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">Computing</a></li>
+                    <li><a href="#">Arts & humanities</a></li>
+                    <li><a href="#">Economics</a></li>
+                    <li><a href="#">Reading & language arts</a></li>
+                    <li><a href="#">Life skills</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="english">
+            <p class="language">Language <a href="">English</a>
+            </p>
+            <div class="mixed">
+                <ul class="Country">
+                    <li>Country</li>
+                </ul>
+                <ul class="Country">
+                    <li><a href="#">U.S.</a></li>
+                </ul>
+                <ul class="Country">
+                    <li><a href="#">India</a></li>
+                </ul>
+                <ul class="Country">
+                    <li><a href="#">Mexico</a></li>
+                </ul>
+                <ul class="Country">
+                    <li><a href="#">Brazil</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="chart">
+            <div class="Terms">
+                <ul class="Academy">
+                    <li>© 2022 Khan Academy</li>
+                </ul>
+                <ul class="Academy">
+                    <li><a href="#">Terms of use</a></li>
+                </ul>
+                <ul class="Academy">
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <ul class="Academy">
+                    <li><a href="#">Cookie Notice</a></li>
+                </ul>
+            </div>
+            <div class="channel">
+                <img class="icon facebook" src="https://img.icons8.com/small/2x/facebook.png" alt="facebook">
+                <img class="icon twitter" src="https://img.icons8.com/officexs/2x/twitter.png" alt="twitter">
+                <img class="icon instragram" src="https://img.icons8.com/small/2x/instagram-new.png" alt="instagram">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
